@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 90'%3E%3Cpath d='M32 2c6 14-4 20-8 28-4 8 2 14 2 14s-8-3-9-12c-6 7-9 14-9 22 0 18 14 30 24 30s24-12 24-30C56 34 44 18 32 2z' fill='%23F5720C'/%3E%3C/svg%3E">
+<title>Burning Chilli 243 — playable preview</title>
+<script>
+  if (window.matchMedia('(max-width: 720px)').matches) location.replace('play/index.html');
+</script>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: radial-gradient(1200px 700px at 50% -10%, #5A0F03 0%, #1E0501 55%, #120300 100%);
+    color: #FFE7C4;
+    font: 400 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    display: flex; flex-direction: column; align-items: center;
+    padding: 24px 16px 28px;
+  }
+  h1 { margin: 0 0 2px; font-size: 17px; font-weight: 700; letter-spacing: 0.02em; }
+  .meta { margin: 0 0 16px; font-size: 13px; color: #B98F6C; }
+  .phone {
+    position: relative;
+    height: min(932px, calc(100dvh - 150px));
+    aspect-ratio: 430 / 932;
+    border-radius: 34px;
+    overflow: hidden;
+    background: #140401;
+    border: 1px solid rgba(255,255,255,0.10);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.65), 0 0 0 8px rgba(255,255,255,0.03);
+  }
+  .phone iframe { display: block; width: 100%; height: 100%; border: 0; }
+  .hint { margin-top: 14px; font-size: 10px; color: #8A6B52; text-align: center; }
+  @media (max-width: 720px) {
+    body { padding: 0; display: block; }
+    h1, .meta, .hint { display: none; }
+    .phone {
+      height: 100dvh; width: 100vw; aspect-ratio: auto;
+      border: 0; border-radius: 0; box-shadow: none;
+    }
+  }
+</style>
+</head>
+<body>
+  <h1>Burning Chilli 243</h1>
+  <p class="meta">TikTok playable &middot; CA / CAD</p>
+
+  <div class="phone">
+    <iframe src="play/index.html" title="Playable" allow="autoplay; fullscreen"></iframe>
+  </div>
+
+  <p class="hint">Звук включается первым касанием. «PLAY NOW» ведёт в стор только внутри TikTok - здесь кнопка ничего не открывает.</p>
+</body>
+</html>
